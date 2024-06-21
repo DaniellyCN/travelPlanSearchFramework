@@ -18,4 +18,12 @@
   </div>
 </template>
 
-<script lang="ts" src="./app.component.ts"></script>
+<script lang="ts" src="./app.component.ts">
+import OwseSearchFrameworkVue from '@owse/search-framework-vue';
+import Vue from "vue";
+
+Vue.use(OwseSearchFrameworkVue, {
+  projectName: 'novoPortalTvvApp',
+  prefixLabelI18n: 'global.label'
+});
+</script>

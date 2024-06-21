@@ -47,6 +47,8 @@ import 'dmn-js/dist/assets/diagram-js.css';
 import 'dmn-js/dist/assets/dmn-js-decision-table-controls.css';
 import 'dmn-js/dist/assets/dmn-font/css/dmn.css';
 
+import TravelPlanService from '@/entities/travel-plan/travel-plan.service';
+import TravelPlanProcessService from '@/entities/travel-plan-process/travel-plan-process.service';
 // jhipster-needle-add-entity-service-to-main-import - JHipster will import entities services here
 
 /* tslint:enable */
@@ -120,6 +122,8 @@ new Vue({
 
     userOAuth2Service: () => new UserOAuth2Service(),
     translationService: () => translationService,
+    travelPlanService: () => new TravelPlanService(),
+    travelPlanProcessService: () => new TravelPlanProcessService(),
     // jhipster-needle-add-entity-service-to-main - JHipster will import entities services here
     accountService: () => accountService,
   },

@@ -17,6 +17,12 @@
         "tenant": "Tenant",
         "akipEmailConnectorConfig": "Email Connector Config",
         "processTimelineDefinition": "Timeline Definition",
+        "travelPlan": "Travel Plan",
+        "travelPlanProcess": "Travel Plan Process",
+        "travelPlanStartForm": "Travel Plan Start Form",
+        "taskHotel": "Task Hotel",
+        "taskFlight": "Task Flight",
+        "taskCar": "Task Car",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {
